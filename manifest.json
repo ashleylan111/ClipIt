@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "ClipIt",
+    "version": "1.0",
+    "description": "A Chrome extension to clip text and images, consolidating them into useful study tools.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "browsingData",
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Summarize Wiki Page"
+    },
+    "icons": {
+      "512": "icons/icon.png"
+    }
+  }
