@@ -13,7 +13,7 @@
     },
     "action": {
       "default_popup": "popup.html",
-      "default_title": "Summarize Wiki Page"
+      "default_title": "ClipIt"
     },
     "icons": {
       "512": "icons/icon.png"
